@@ -47,5 +47,5 @@ def get_average_age_for_season(data, season)
     age_of_girls += (contestant_hash["age"]).to_i
     count +=1
   end 
-  (age_of_girls / count.to_f).round(0)
+  (age_of_girls / count).round(0)
 end
