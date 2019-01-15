@@ -1,7 +1,7 @@
 require "pry"
 def get_first_name_of_season_winner(data, season)
   data[season].each do |contestant_hash|
-    if contestant_hash[:status] == "winner"
+    if contestant_hash["status"] == "winner"
       return
   end
 end
