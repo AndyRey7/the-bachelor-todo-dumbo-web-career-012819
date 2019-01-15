@@ -4,8 +4,8 @@ def get_first_name_of_season_winner(data, season)
     binding.pry
   end
 end
-get_first_name_of_season_winner(data, season)
-def get_contestant_name(bachelor, occupation)
+get_first_name_of_season_winner(bachelorr, season)
+def get_contestant_name(data, occupation)
   # code here
 end
 
